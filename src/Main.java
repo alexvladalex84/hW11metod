@@ -9,9 +9,9 @@ public class Main {
     }
         public static void phoneModel(int phone,int phoneAge){
 
-            int comandPhone =phone ;
+            int commandPhone =phone ;
             int clientDeviceYear = phoneAge;
-            if (comandPhone == 0) {
+            if (commandPhone == 0) {
                 if (clientDeviceYear > 2015) {
                     System.out.println("Установите версию для IOS по ссылке");
                 } else {
@@ -19,7 +19,7 @@ public class Main {
 
                 }
 
-            }if (comandPhone == 1){
+            }if (commandPhone == 1){
                 if (clientDeviceYear >2015){
                     System.out.println("Установите версию для Android по ссылке");
                 }else {
