@@ -13,7 +13,7 @@ public class Main {
             int clientDeviceYear = phoneAge;
             if (commandPhone == 0) {
                 if (clientDeviceYear > 2015) {
-                    System.out.println("Установите версию для IOS по ссылке");
+                    System.out.println("Установите обычную версию для IOS по ссылке");
                 } else {
                     System.out.println("Установите облегченную версию приложения для iOS по ссылке");
 
@@ -21,7 +21,7 @@ public class Main {
 
             }if (commandPhone == 1){
                 if (clientDeviceYear >2015){
-                    System.out.println("Установите версию для Android по ссылке");
+                    System.out.println("Установите обычную версию для Android по ссылке");
                 }else {
                     System.out.println("Установите облегченную версию Android по ссылке");
                 }
