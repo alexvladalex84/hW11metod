@@ -28,7 +28,7 @@ public class Main {
             }
         }
 
-    public static void daysDelivery(int distance) {
+    public static int daysDelivery(int distance) {
         int deliveryDistance = distance;
         int dayDelivery = 1;
                if (deliveryDistance > 20) {
@@ -39,8 +39,7 @@ public class Main {
                }
                 System.out.println("Достака займет " + dayDelivery + " день");
 
-
-
+        return dayDelivery;
 
 
     }
@@ -83,8 +82,9 @@ public class Main {
                 Объявите целочисленную переменную deliveryDistance = 95, которая содержит дистанцию до клиента.
         Ваша задача — дНапишитеоработать код, а именно написать метод, который на вход принимает дистанцию и возвращает
         итоговое количество дней доставки.*/
-            int distanceDel = 10;
-            daysDelivery(distanceDel);
+            int distanceDel = 50;
+         daysDelivery(distanceDel);
+//        System.out.println(distanceDel);
 
 
 
